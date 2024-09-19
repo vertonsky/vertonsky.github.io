@@ -60,18 +60,6 @@
         </template>
       </v-list-item>
       <v-list-item
-        title="Enrich QR codes"
-        subtitle="Decode the content of the QR code according to the type"
-      >
-        <template #append>
-          <v-btn
-            @click="$emit('enrich-values')"
-          >
-            Enrich
-          </v-btn>
-        </template>
-      </v-list-item>
-      <v-list-item
         title="Show debug"
         subtitle="Show debug information"
       >
